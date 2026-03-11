@@ -28,6 +28,19 @@ body {
     width: 115px;
     border-radius: 50%;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#operator {
+    background-color: rgb(237, 154, 0);
+    font-size: 40px;
 }
 
 .button-wrapper {
@@ -51,4 +64,14 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 6px;
+    display: flex;
+    justify-content: flex-end; /* pushes text to the right */
+    align-items: center;       /* vertical center */
+    padding-right: 10px; 
+}
+
+.cal-screen p {
+    margin: 0;          /* remove default paragraph margin */
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
 }
