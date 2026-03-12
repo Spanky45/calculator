@@ -1,5 +1,13 @@
 const button = document.querySelectorAll('.button');
 const operator = document.querySelectorAll('.operator');
+const calScreen = document.querySelector('.cal-screen');
+const calText = document.querySelector('.cal-text');
+
+
+function updateCalText() {
+
+};
+
 
 operator.forEach((operator) => {
     operator.addEventListener('mousedown', () => {
