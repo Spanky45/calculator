@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <div class="container">
-        <div class="cal-body">
-            <div class="cal-screen">
-                <p class="cal-text">12345</p>
-            </div>
-            <div class="button-wrapper">
-                <div class="back-button button">Del</div>
-                <div class="clear button">AC</div>
-                <div class="percent button">%</div>
-                <div class="divide operator"><img src="divide.png" width="60px" height="60px"></div>
-                <div class="seven button">7</div>
-                <div class="eight button">8</div>
-                <div class="nine button">9</div>
-                <div class="multiply operator">x</div>
-                <div class="four button">4</div>
-                <div class="five button">5</div>
-                <div class="six button">6</div>
-                <div class="subtract operator">-</div>
-                <div class="one button">1</div>
-                <div class="two button">2</div>
-                <div class="three button">3</div>
-                <div class="add operator">+</div>
-                <div class="plus-minus button">+/-</div>
-                <div class="zero button">0</div>
-                <div class="decimal button">.</div>
-                <div class="equals operator">=</div>
-            </div>
+
+<div class="container">
+    <div class="cal-body">
+
+        <div class="cal-screen">
+            <p class="cal-text">0</p>
         </div>
+
+        <div class="button-wrapper">
+
+            <div class="button back-button">Del</div>
+            <div class="button clear">AC</div>
+            <div class="button percent">%</div>
+            <div class="operator divide">÷</div>
+
+            <div class="button seven">7</div>
+            <div class="button eight">8</div>
+            <div class="button nine">9</div>
+            <div class="operator multiply">x</div>
+
+            <div class="button four">4</div>
+            <div class="button five">5</div>
+            <div class="button six">6</div>
+            <div class="operator subtract">-</div>
+
+            <div class="button one">1</div>
+            <div class="button two">2</div>
+            <div class="button three">3</div>
+            <div class="operator add">+</div>
+
+            <div class="button plus-minus">+/-</div>
+            <div class="button zero">0</div>
+            <div class="button decimal">.</div>
+            <div class="operator equals">=</div>
+
+        </div>
+
     </div>
+</div>
 
+<script src="index.js"></script>
 
-    <script src="index.js"></script>
 </body>
 </html>
